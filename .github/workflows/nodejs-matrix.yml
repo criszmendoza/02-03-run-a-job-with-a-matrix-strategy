@@ -20,4 +20,3 @@ jobs:
       - run: npm install
       - name: Running on Platform = ${{ matrix.platform }} Node = ${{ matrix.version }}
         run: npm test
-    continue-on-error: ${{ matrix.version }}
